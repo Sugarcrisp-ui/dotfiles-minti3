@@ -1,8 +1,1 @@
-[Desktop Entry]
-Name=RealVNC Viewer
-Comment=Launch RealVNC Viewer for remote desktop access
-Exec=/usr/bin/vncviewer
-Terminal=false
-Type=Application
-Icon=vncviewer
-Categories=Network;RemoteAccess;
+../../../dotfiles-minti3/applications/.local/share/applications/realvnc-viewer.desktop

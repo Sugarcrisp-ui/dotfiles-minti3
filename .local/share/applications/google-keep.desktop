@@ -1,9 +1,1 @@
-[Desktop Entry]
-Name=Google Keep
-Comment=
-#Exec=brave --app="https://keep.google.com/"
-Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://keep.google.com/" || brave-browser --app="https://keep.google.com/"'
-Icon=/home/brett/Pictures/google-keep-icon.png
-Terminal=false
-Type=Application
-Categories=Calendar;
+../../../dotfiles-minti3/applications/.local/share/applications/google-keep.desktop

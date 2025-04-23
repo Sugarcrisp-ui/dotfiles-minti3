@@ -1,10 +1,1 @@
-[Desktop Entry]
-Name=Netflix
-Comment=Watch Netflix in Full Screen mode using Brave Browser
-#Exec=brave --app="https://www.netflix.com/browse"
-Exec=sh -c '[ -f /etc/arch-release ] && brave --app="https://www.netflix.com/browse" || GTK_THEME=Arc-Darker brave-browser --app="https://www.netflix.com/browse"'
-Icon=/home/brett/Pictures/netflix-icon.png
-Terminal=false
-Type=Application
-Categories=Network;Video;AudioVideo;
-Keywords=Netflix;Streaming;Movies;TV;
+../../../dotfiles-minti3/applications/.local/share/applications/netflix.desktop
