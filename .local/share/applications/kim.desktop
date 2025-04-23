@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=kim
+#Exec=brave --profile-directory="Profile 2"
+Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --profile-directory="Profile 2" || brave-browser --profile-directory="Profile 2"'
+Icon=brave
+Terminal=false
+Categories=Network;WebBrowser;

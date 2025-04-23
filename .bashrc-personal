@@ -1,0 +1,67 @@
+# Variables
+PERSONAL_BIN="$HOME/.bin-personal"
+export EDITOR='micro'
+export VISUAL='micro'
+export TERM=xterm-256color
+
+# This ensures new files aren’t executable by default.
+umask 022
+
+# PATH
+export PATH="$PERSONAL_BIN:$HOME/bin:/opt/someApp/bin:$PATH"
+
+# Bash Completion
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+fi
+
+# Bash Settings
+PS1='\[\e[0;32m\]\u@\h:\[\e[0;34m\]\w\[\e[0m\]\$ '
+shopt -s nocaseglob
+shopt -s cdspell
+
+# System Management
+alias update='sudo apt update && sudo apt upgrade -y; flatpak update -y'
+alias apt-unlock='pidof apt || sudo rm /var/lib/apt/lists/lock /var/cache/apt/archives/lock /var/lib/dpkg/lock-frontend'
+alias cleanpkgs='sudo apt autoremove -y && sudo apt autoclean'
+
+# File Operations
+alias cp='command cp -i'
+alias ll='ls -alFh --color=auto'
+alias grep='grep --color=auto'
+alias symlink='$PERSONAL_BIN/create-symlink.sh'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Audio
+alias tohdmi="$PERSONAL_BIN/switch-to-hdmi.sh"
+alias toaux="$PERSONAL_BIN/switch-to-aux.sh"
+
+# Backups
+alias topersonal="sudo $PERSONAL_BIN/config-backup-to-personal.sh"
+alias togithub="$PERSONAL_BIN/config-backup-github.sh"
+alias toexternal="$PERSONAL_BIN/config-backup-to-external.sh"
+
+# Utilities
+alias youtube='python "$PERSONAL_BIN/youtube-download.py"'
+alias transfer='python "$PERSONAL_BIN/transfer.py"'
+alias backup='python "$PERSONAL_BIN/file-backup-with-time.py"'
+alias sysinfo='inxi -Fxxxrz'
+alias blue='bluetoothctl'
+alias nf='neofetch'
+alias duh='du -h --max-depth=1 | sort -hr'
+
+# Bash
+alias mbp='$EDITOR $HOME/.bashrc-personal'
+alias bashup='source ~/.bashrc'
+
+# System Control
+alias ssn='sudo shutdown now'
+alias sr='sudo reboot'
+alias sh='if [ -n "$(history -p !! 2>/dev/null)" ]; then sudo $(history -p !!); else echo "No previous command found."; fi'
+
+# Betterlockscreen
+alias bls="$PERSONAL_BIN/bls.sh"

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Google Finance Tesla
+Comment=
+#Exec=brave --app="https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en"
+Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en" || brave-browser --app="https://www.google.com/finance/quote/TSLA:NASDAQ?hl=en"'
+Icon=/home/brett/Pictures/google-finance-icon.svg
+Terminal=false
+Type=Application
+Categories=Finance;

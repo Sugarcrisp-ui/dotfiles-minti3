@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=anna
+#Exec=brave --profile-directory="Profile 1"
+Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978" || brave-browser --app="https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978"'
+Icon=brave
+Terminal=false
+Categories=Network;WebBrowser;
