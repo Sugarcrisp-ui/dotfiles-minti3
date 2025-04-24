@@ -1,1 +1,9 @@
-../../../dotfiles-minti3/applications/.local/share/applications/messenger.desktop
+[Desktop Entry]
+Name=Messenger
+Comment=Chat with your friends on Facebook Messenger in standalone mode
+#Exec=brave --app="https://www.facebook.com/messages/e2ee/t/24984255867889691/"
+Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://www.facebook.com/messages/e2ee/t/24984255867889691/" || brave-browser --app="https://www.facebook.com/messages/e2ee/t/24984255867889691/"'
+Icon=/home/brett/Pictures/messenger-icon.png
+Terminal=false
+Type=Application
+Categories=Network;Chat;

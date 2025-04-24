@@ -1,1 +1,9 @@
-../../../dotfiles-minti3/applications/.local/share/applications/google-calendar.desktop
+[Desktop Entry]
+Name=Google Calendar
+Comment=
+#Exec=brave --app="https://calendar.google.com/calendar/u/0/r?tab=mc"
+Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://calendar.google.com/calendar/u/0/r?tab=mc" || brave-browser --app="https://calendar.google.com/calendar/u/0/r?tab=mc"'
+Icon=/home/brett/Pictures/google-calendar-icon.svg
+Terminal=false
+Type=Application
+Categories=Calendar;

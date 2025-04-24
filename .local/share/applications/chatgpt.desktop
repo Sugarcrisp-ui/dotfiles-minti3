@@ -1,1 +1,9 @@
-../../../dotfiles-minti3/applications/.local/share/applications/chatgpt.desktop
+[Desktop Entry]
+Name=Chatgpt
+Comment=
+#Exec=brave --app="https://chatgpt.com/"
+Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://chatgpt.com/" || brave-browser --app="https://chatgpt.com/"'
+Icon=/home/brett/Pictures/chatgpt-icon.png
+Terminal=false
+Type=Application
+Categories=AI
