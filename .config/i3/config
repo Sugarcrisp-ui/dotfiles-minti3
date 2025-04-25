@@ -88,6 +88,9 @@ bindsym $mod+Shift+r exec --no-startup-id i3-msg restart
 bindsym $mod+q kill
 bindsym --release $mod+Escape exec xkill
 
+# App for taking temporary notes when troubleshooting (Zim)
+bindsym $mod+z exec --no-startup-id zim
+
 # Set default size and position for floating windows
 for_window[floating] resize set 800px 500px
 for_window[floating] move position center
