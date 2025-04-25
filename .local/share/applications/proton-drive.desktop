@@ -1,10 +1,9 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
 Terminal=false
 Type=Application
 Name=Proton Drive
-#Exec=/opt/brave-bin/brave --profile-directory=Default --app-id=fnnddiokljlbkmeppnclajginnfbffgb
-Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker /opt/brave-bin/brave --profile-directory=Default --app-id=fnnddiokljlbkmeppnclajginnfbffgb || brave-browser --profile-directory=Default --app-id=fnnddiokljlbkmeppnclajginnfbffgb'
-Icon=brave-fnnddiokljlbkmeppnclajginnfbffgb-Default
-StartupWMClass=crx_fnnddiokljlbkmeppnclajginnfbffgb
+Exec=brave-browser --new-window --user-data-dir=/home/brett/.config/brave-profiles/proton-drive "https://drive.proton.me/u/0/Jd5-vCI7r5nsr-QatXmK_8LdgI6x_kfO76AvhkV-nLGIBV9QFvnYMdeZpiRTqArYvvKAz1L9PyBwyDZ0ei7gPQ==/folder/U4RuoZufvem1IR4Dd_KQuzixv7VQ1aI7OXPpd7YgGbtJ8FPchxitA2IAfFob07V1EbXZQfrWmgLzhfkRFx5X1w==?r=/Jd5-vCI7r5nsr-QatXmK_8LdgI6x_kfO76AvhkV-nLGIBV9QFvnYMdeZpiRTqArYvvKAz1L9PyBwyDZ0ei7gPQ==/folder/9_VDnaqY5jgdMd51uTyVOIDaeYp4fEzY8vSS8pX2w90pzcnFTl_qFExCpioaHw3I4hqXkiInQ7ku8ToPmeUoXw=="
+Icon=/home/brett/Pictures/proton-drive-icon.png
+StartupWMClass=brave-browser
+Categories=Network;

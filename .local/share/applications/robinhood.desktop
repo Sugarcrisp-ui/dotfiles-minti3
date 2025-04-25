@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Robinhood Tesla
-Comment=
-#Exec=brave --app="https://robinhood.com/us/en/stocks/TSLA/"
-Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://robinhood.com/us/en/stocks/TSLA/" || brave-browser --app="https://robinhood.com/us/en/stocks/TSLA/"'
-Icon=/home/brett/Pictures/robinhood-icon.svg
-Terminal=false
-Type=Application
-Categories=Financial;

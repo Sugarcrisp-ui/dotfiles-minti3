@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=anna
-#Exec=brave --profile-directory="Profile 1"
-Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978" || brave-browser --app="https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978"'
-Icon=brave
+Name=Anna
+Comment=Open Anna's Gmail
+Exec=brave-browser --new-window --user-data-dir=/home/brett/.config/brave-profiles/anna "https://mail.google.com/mail/u/0/#inbox"
 Terminal=false
+Icon=/home/brett/Pictures/icons/gmail.png
 Categories=Network;WebBrowser;

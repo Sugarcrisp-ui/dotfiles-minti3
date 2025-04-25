@@ -7,8 +7,8 @@ set $textColor #e5e5e5 #Light gray or platinum
 set $mod Mod4
 set $alt Mod1
 
-# Basic Settings
-set $terminal xfce4-terminal
+# Basic Settings (xfce4, alacritty)
+set $terminal alacritty
 
 # Set your preferred browser (brave-browser for Mint)
 set $browser brave-browser --profile-directory="Default"
@@ -131,10 +131,15 @@ bindsym $mod+Shift+Return exec --no-startup-id $fileManager
 bindsym $mod+w exec --no-startup-id $browser
 bindsym Control+$alt+p exec --no-startup-id xfce4-screenshooter
 
-# Audio Control
-bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -D pulse set Master '5%+'"
-bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -D pulse set Master '5%-'"
-bindsym XF86AudioMute exec --no-startup-id "amixer -D pulse set Master toggle"
+# Pulsea Audio Control
+#bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -D pulse set Master '5%+'"
+#bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -D pulse set Master '5%-'"
+#bindsym XF86AudioMute exec --no-startup-id "amixer -D pulse set Master toggle"
+
+# Pipewire Audio Control
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 # Screen Brightness Control
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 20
