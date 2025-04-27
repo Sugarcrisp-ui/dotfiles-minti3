@@ -65,3 +65,4 @@ alias sh='if [ -n "$(history -p !! 2>/dev/null)" ]; then sudo $(history -p !!); 
 
 # Betterlockscreen
 alias bls="$PERSONAL_BIN/bls.sh"
+
