@@ -24,6 +24,8 @@ smart_gaps on
 # Dynamically set firstMonitor
 exec --no-startup-id sh -c 'i3-msg "set $firstMonitor $(xrandr --query | grep \" connected\" | head -n1 | cut -d\" \" -f1)"'
 
+font pango:FiraCode Nerd Font 10
+
 # Workspaces
 workspace 1 output $firstMonitor
 workspace 2 output $firstMonitor
@@ -72,11 +74,11 @@ bindsym Control+$alt+m exec --no-startup-id xfce4-settings-manager
 # Logout (use i3-logout for Mint i3)
 bindsym $mod+x exec --no-startup-id i3-logout
 
-# Screen Lock
-bindsym Control+Mod1+k exec --no-startup-id /home/brett/.bin-personal/lock-screen.sh
+# Screen Lock (TO BE REMOVED)
+#bindsym Control+Mod1+k exec --no-startup-id /home/brett/.bin-personal/lock-screen.sh
 
-# Suspend
-bindsym Control+Mod1+l exec --no-startup-id ~/.bin-personal/suspend-lock.sh
+# Lock sreen on Desktop and lock and suspend on Laptop
+bindsym Control+Mod1+l exec --no-startup-id ~/.bin-personal/lock-screen.sh
 
 # Reload Configuration
 bindsym $mod+Shift+c reload
@@ -111,7 +113,7 @@ exec --no-startup-id /usr/local/bin/dunst &
 exec --no-startup-id ~/.bin-personal/set-wallpaper.sh
 exec --no-startup-id eval "$(ssh-agent -s)"
 # Always run autotiling script (specific to minti3)
-exec --no-startup-id ~/i3ipc-venv/bin/python ~/.bin-personal/autotiling.py
+#exec_always --no-startup-id python3 ~/.bin-personal/autotiling.py &
 exec --no-startup-id ~/.bin-personal/set-monitor.sh
 exec --no-startup-id ibus exit
 
