@@ -1,0 +1,3 @@
+10 21 * * 0 /bin/bash /home/brett/minti3/Personal/update-i3ipc.sh >> /home/brett/minti3/Personal/i3ipc-update.log 2>&1 # Update i3ipc every Sunday at 9:10 PM
+20 21 * * 0 /bin/bash /home/brett/minti3/Personal/update-i3lock-color.sh >> /home/brett/minti3/Personal/i3lock-color-update.log 2>&1 # Update i3lock-color every Sunday at 9:20 PM
+0 23 * * * /bin/bash /home/brett/.bin-personal/backup-dotfiles.sh # Run backup-dotfiles.sh to backup personal settings daily at 23:00
