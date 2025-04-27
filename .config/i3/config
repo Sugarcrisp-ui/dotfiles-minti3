@@ -110,8 +110,7 @@ exec --no-startup-id /usr/lib/x86_64-linux-gnu/libexec/polkit-gnome-authenticati
 exec --no-startup-id /usr/local/bin/dunst &
 exec --no-startup-id ~/.bin-personal/set-wallpaper.sh
 exec --no-startup-id eval "$(ssh-agent -s)"
-# Always run autotiling script (specific to minti3)
-exec --no-startup-id ~/i3ipc-venv/bin/python ~/.bin-personal/autotiling.py
+exec_always --no-startup-id python3 ~/.bin-personal/autotiling.py &
 exec --no-startup-id ~/.bin-personal/set-monitor.sh
 exec --no-startup-id ibus exit
 
