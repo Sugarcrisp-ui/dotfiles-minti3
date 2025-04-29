@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-04-28T07:51:32+07:00
+
+====== linux-minti3-followup ======
+Created Monday 28 April 2025
+
+~~On reboot, Thunar is launching due to script for updating logitech keyboard~~
+	~~-thunar-back-fix.sh~~
+~~fix mom's TD account linking tfsa to wrong account~~
+	~~TFSA2 1253 57H6X5J [[WebBroker]] $12,539.97~~
+	~~HIGH INTEREST TFSA SAVINGS ACCOUNT 2456 6359445 $0.04~~
+
+~~I have 2 tfsa accounts that show on my main page.~~
+	~~TFSA 1253 57H6X5J WebBroker $12,539.97~~
+	~~HIGH INTEREST TFSA SAVINGS ACCOUNT 2456 6359445 $0.04~~
+~~When I click on TFSA 1253 57H6X5J, it takes me to 56MMW0 cash with $0 instead. Can this be fixed?~~
+
+~~Need to add [[~/Notebooks/]] to my daily backup to dotfiles-minti3~~
+	
+	
+
+
