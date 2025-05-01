@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Tesla All In
-Comment=Open Tesla All In in Google Sheets
-Exec=brave-browser --new-window --user-data-dir=/home/brett/.config/brave-profiles/tesla-all-in "https://docs.google.com/spreadsheets/d/1-xaJi5YRPnNRDQSZfzk0LZCpuSE1SaIAsXRhwAXGOWY/edit?gid=199894848#gid=199894848"
-Terminal=false
-Type=Application
-Icon=/home/brett/Pictures/tesla-icon.svg
-Categories=Finance;

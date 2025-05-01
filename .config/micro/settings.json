@@ -1,6 +1,0 @@
-{
-    "colorscheme": "atom-dark",
-    "filetype": {
-        ".crontab": "crontab"
-    }
-}

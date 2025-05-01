@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Bowling
-Comment=Open Bowling Scores in Google Sheets
-Exec=brave-browser --new-window --user-data-dir=/home/brett/.config/brave-profiles/bowling "https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978"
-Terminal=false
-Type=Application
-Icon=/home/brett/Pictures/bowling-icon.png
-Categories=Network;

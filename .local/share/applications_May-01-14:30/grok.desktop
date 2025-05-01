@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Grok
+Comment=Site-Specific Browser for Grok
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-grok.com-app -no-remote -new-instance grok.com
+Icon=/home/brett/Pictures/icons/grok-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

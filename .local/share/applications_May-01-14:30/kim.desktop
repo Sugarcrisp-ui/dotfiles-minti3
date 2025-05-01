@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Kim
+Comment=Site-Specific Browser for Kim
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-kim-standard -no-remote -new-instance
+Icon=firefox
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=WhatsApp
+Comment=Site-Specific Browser for WhatsApp
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-web.whatsapp.com-app -no-remote -new-instance https://web.whatsapp.com
+Icon=~/Pictures/icons/whatsapp-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

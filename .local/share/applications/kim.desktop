@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Kim
-Comment=Open Kim's Gmail
-Exec=brave-browser --new-window --user-data-dir=/home/brett/.config/brave-profiles/kim "https://mail.google.com/mail/u/0/#inbox"
-Terminal=false
-Icon=/home/brett/Pictures/icons/gmail.png
-Categories=Network;WebBrowser;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=X
+Comment=Site-Specific Browser for X
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-x.com-app -no-remote -new-instance x.com
+Icon=/home/brett/Pictures/icons/x-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

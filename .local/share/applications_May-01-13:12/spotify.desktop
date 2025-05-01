@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Spotify
+Comment=Site-Specific Browser for Spotify
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-open.spotify.com-app -no-remote -new-instance https://open.spotify.com
+Icon=~/Pictures/icons/spotify-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

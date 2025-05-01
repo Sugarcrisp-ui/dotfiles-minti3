@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Google Drive
-Comment=
-#Exec=brave --app="https://drive.google.com/drive/my-drive"
-Exec=sh -c '[ -f /etc/arch-release ] && GTK_THEME=Arc-Darker brave --app="https://drive.google.com/drive/my-drive" || brave-browser --app="https://drive.google.com/drive/my-drive"'
-Icon=/home/brett/Pictures/google-drive.svg
-Terminal=false
-Type=Application
-Categories=Cloud storage;

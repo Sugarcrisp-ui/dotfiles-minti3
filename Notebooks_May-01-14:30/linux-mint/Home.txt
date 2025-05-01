@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-04-28T07:51:32+07:00
+
+====== linux-minti3-followup ======
+Created Monday 28 April 2025
+
+Have Grok send a report about providing too much information for most people all the time. This uses up excess resources for every chat. 
+
+~~Add [[~/.mozilla/]] to dotfiles~~
+
+~~Modify dotfiles-backup.sh to cp files with ISO 8601 (YYYY-MM-DD-HHMM) timestamp. Also want to keep 3 copies~~ 
+
+adjust scripts with timestamp to use 'Apr-27-22:59' format
+
+Put a copy of .fonts on external drive and remove from [[~/dotfiles/]] and from the backup script
+	Need to adjust the install script also

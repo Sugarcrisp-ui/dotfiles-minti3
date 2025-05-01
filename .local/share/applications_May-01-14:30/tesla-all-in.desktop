@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Tesla All In
+Comment=Site-Specific Browser for Tesla All In
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-docs.google.com_spreadsheets_d_1-xaJi5YRPnNRDQSZfzk0LZCpuSE1SaIAsXRhwAXGOWY_edit?pli=1&gid=1654973658#gid=1654973658-app -no-remote -new-instance https://docs.google.com/spreadsheets/d/1-xaJi5YRPnNRDQSZfzk0LZCpuSE1SaIAsXRhwAXGOWY/edit?pli=1&gid=1654973658#gid=1654973658
+Icon=~/Pictures/icons/tesla-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

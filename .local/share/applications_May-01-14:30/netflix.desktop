@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Netflix
+Comment=Site-Specific Browser for Netflix
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-www.netflix.com-app -no-remote -new-instance https://www.netflix.com
+Icon=~/Pictures/icons/netflix-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Calendar
+Comment=Site-Specific Browser for Google Calendar
+Exec=firefox -profile /home/brett/.mozilla/firefox/ssb-calendar.google.com-app -no-remote -new-instance https://calendar.google.com
+Icon=~/Pictures/icons/google-calendar-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=firefox

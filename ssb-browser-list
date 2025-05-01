@@ -1,0 +1,114 @@
+{
+  "websites": [
+    {
+      "app_name": "Bowling",
+      "web_address": "https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/bowling-icon.png"
+    },
+    {
+      "app_name": "ChatGPT",
+      "web_address": "https://chat.openai.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/chatgpt-icon.png"
+    },
+    {
+      "app_name": "Gmail",
+      "web_address": "https://mail.google.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/gmail-icon.png"
+    },
+    {
+      "app_name": "Google Calendar",
+      "web_address": "https://calendar.google.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/google-calendar-icon.png"
+    },
+    {
+      "app_name": "Google Drive",
+      "web_address": "https://drive.google.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/google-drive-icon.png"
+    },
+    {
+      "app_name": "Google Finance",
+      "web_address": "https://www.google.com/finance",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/google-finance-icon.png"
+    },
+    {
+      "app_name": "Google Keep",
+      "web_address": "https://keep.google.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/google-keep-icon.png"
+    },
+    {
+      "app_name": "Grok",
+      "web_address": "https://grok.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/grok-icon.png"
+    },
+    {
+      "app_name": "Messenger",
+      "web_address": "https://www.messenger.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/messenger-icon.png"
+    },
+    {
+      "app_name": "Netflix",
+      "web_address": "https://www.netflix.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/netflix-icon.png"
+    },
+    {
+      "app_name": "ProtonDrive",
+      "web_address": "https://drive.proton.me",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/protondrive-icon.png"
+    },
+    {
+      "app_name": "ProtonMail",
+      "web_address": "https://mail.proton.me",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/protonmail-icon.png"
+    },
+    {
+      "app_name": "Spotify",
+      "web_address": "https://open.spotify.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/spotify-icon.png"
+    },
+    {
+      "app_name": "Tesla All In",
+      "web_address": "https://docs.google.com/spreadsheets/d/1-xaJi5YRPnNRDQSZfzk0LZCpuSE1SaIAsXRhwAXGOWY/edit?pli=1&gid=1654973658#gid=1654973658",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/tesla-icon.png"
+    },
+    {
+      "app_name": "WhatsApp",
+      "web_address": "https://web.whatsapp.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/whatsapp-icon.png"
+    },
+    {
+      "app_name": "X",
+      "web_address": "https://x.com",
+      "style": "app",
+      "icon_path": "~/Pictures/icons/x-icon.png"
+    }
+  ],
+  "sessions": [
+    {
+      "app_name": "Anna",
+      "session_name": "Anna",
+      "style": "standard",
+      "icon_path": ""
+    },
+    {
+      "app_name": "Kim",
+      "session_name": "Kim",
+      "style": "standard",
+      "icon_path": ""
+    }
+  ]
+}
