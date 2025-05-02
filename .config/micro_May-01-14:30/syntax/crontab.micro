@@ -1,8 +1,0 @@
-# crontab.micro
-
-# Time specifications (first 5 fields)
-syntax "crontab" "\.crontab$"
-color brightblue "^[0-9*,-/]+"
-
-# Command field
-color brightgreen ".*"

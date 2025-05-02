@@ -1,6 +1,0 @@
-@import "/usr/share/rofi/themes/DarkBlue.rasi"
-
-window {
-    transparency: "none"; /* Disable transparency */
-    background-color: #000B18; /* DarkBlue, opaque */
-}

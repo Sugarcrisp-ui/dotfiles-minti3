@@ -26,7 +26,7 @@
     },
     {
       "app_name": "Google Drive",
-      "web_address": "https://drive.google.com",
+      "web_address": "https://drive.google.com/drive/?dmr=1&ec=wgc-drive-globalnav-goto",
       "style": "app",
       "icon_path": "~/Pictures/icons/google-drive-icon.png"
     },
@@ -50,7 +50,7 @@
     },
     {
       "app_name": "Messenger",
-      "web_address": "https://www.messenger.com",
+      "web_address": "https://www.facebook.com/messages/",
       "style": "app",
       "icon_path": "~/Pictures/icons/messenger-icon.png"
     },
@@ -70,8 +70,17 @@
       "app_name": "ProtonMail",
       "web_address": "https://mail.proton.me",
       "style": "app",
+      "icon_path": "~/Pictures/icons/protonwallet-icon.png"
+    },
+    {
+      "app_name": "ProtonWallet",
+      "web_address": "https://wallet.proton.me",
+      "style": "app",
       "icon_path": "~/Pictures/icons/protonmail-icon.png"
     },
+
+
+
     {
       "app_name": "Spotify",
       "web_address": "https://open.spotify.com",
