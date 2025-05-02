@@ -1,6 +1,6 @@
 
 tree-structure
-backup-log-2025-04-23-225124.txt
-backup-log-2025-04-26-220001.txt
-backup-log-2025-04-27-220001.txt
-.config/micro/buffers/history
+backup-log-*.txt
+.config/micro/buffers/
+~/.mozilla/
+~/.config/brave/
