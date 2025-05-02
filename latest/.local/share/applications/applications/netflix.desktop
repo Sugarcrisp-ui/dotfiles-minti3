@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Netflix
+Comment=Site-Specific Browser for Netflix
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-www_netflix_com-app --app=https://www.netflix.com
+Icon=~/Pictures/icons/netflix-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-www_netflix_com-app

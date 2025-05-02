@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=ProtonMail
+Comment=Site-Specific Browser for ProtonMail
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-mail_proton_me-app --app=https://mail.proton.me
+Icon=~/Pictures/icons/protonwallet-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-mail_proton_me-app

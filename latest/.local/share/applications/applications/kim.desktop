@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Kim
+Comment=Site-Specific Browser for Kim
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-kim-standard
+Icon=brave-browser
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-kim-standard

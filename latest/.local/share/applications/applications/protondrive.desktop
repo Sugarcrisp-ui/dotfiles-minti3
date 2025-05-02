@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=ProtonDrive
+Comment=Site-Specific Browser for ProtonDrive
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-drive_proton_me-app --app=https://drive.proton.me
+Icon=~/Pictures/icons/protondrive-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-drive_proton_me-app

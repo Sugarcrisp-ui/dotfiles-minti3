@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Bowling
+Comment=Site-Specific Browser for Bowling
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-docs_google_com_spreadsheets-app --app=https://docs.google.com/spreadsheets/d/1r4j6ndja2V2saGk4_ZjBVAliWYPnrznO7rdxforpHNI/edit?gid=302683978#gid=302683978
+Icon=~/Pictures/icons/bowling-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-docs_google_com_spreadsheets-app

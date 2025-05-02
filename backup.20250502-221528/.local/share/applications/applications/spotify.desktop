@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Spotify
+Comment=Site-Specific Browser for Spotify
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-open_spotify_com-app --app=https://open.spotify.com
+Icon=~/Pictures/icons/spotify-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-open_spotify_com-app

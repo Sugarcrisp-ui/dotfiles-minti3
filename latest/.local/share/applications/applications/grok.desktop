@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Grok
+Comment=Site-Specific Browser for Grok
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-grok_com-app --app=https://grok.com
+Icon=~/Pictures/icons/grok-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-grok_com-app

@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2025-04-28T07:51:32+07:00
+
+====== linux-minti3-followup ======
+Created Monday 28 April 2025
+
+Brave
+* ~~create bravessb script~~
+* ~~add new directory brave .desktop files and profiles to external~~ 
+* ~~make sure ~/.config/brave/ doesn't get added to the backup to dotfiles script~~
+* ~~check if ~/.config/brave/ can be added to .ignore file in [[~/github-repos/dotfiles-minti3/,]] just is case~~
+* ~~create backup script and add to cron~~
+* update installation script replace firefox with brave
+	
+Firefox
+* ~~move [[~/.mozilla/]]  into /media/brett/backup/firefox/ (.desktop files) to external.~~
+* ~~check if [[~/.mozilla]] can be added to .ignore file in [[~/github-repos/dotfiles-minti3/,]] just is case~~
+	 
+Seasoning
+* How to season a carbon steel pan over flame
+
+Dircolors
+* ~~Need to add [[~/.dircolors]] to dotfiles backup script~~
+* Need to add to install script
+
+Dotfiles backup
+* change destination for the backed up files to a folder for each with the 3 backups in the folder. This will make the main directories easier to look at
+* need to update install script to look for the most recent backup when copying files
+	* include the [[/media/brett/backup/.mozilla/]] and [[/media/brett/backup/.config/brave/]] updates to the install scripts
+	* can share tree structure if Grok does't understand
+	* create a duplicate of the rsync script without the ignore files for backing up to the external drive
+
+
+

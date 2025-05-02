@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Drive
+Comment=Site-Specific Browser for Google Drive
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-drive_google_com_drive-app --app=https://drive.google.com/drive/?dmr=1&ec=wgc-drive-globalnav-goto
+Icon=~/Pictures/icons/google-drive-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-drive_google_com_drive-app

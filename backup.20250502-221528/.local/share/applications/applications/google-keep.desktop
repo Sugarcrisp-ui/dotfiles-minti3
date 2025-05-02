@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Keep
+Comment=Site-Specific Browser for Google Keep
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-keep_google_com-app --app=https://keep.google.com
+Icon=~/Pictures/icons/google-keep-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-keep_google_com-app

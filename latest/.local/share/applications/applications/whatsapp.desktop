@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=WhatsApp
+Comment=Site-Specific Browser for WhatsApp
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-web_whatsapp_com-app --app=https://web.whatsapp.com
+Icon=~/Pictures/icons/whatsapp-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-web_whatsapp_com-app

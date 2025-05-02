@@ -1,0 +1,19 @@
+[devices]
+
+[devices."AirPodsPro White"]
+mac = "C0:C2:0F:86:2A:7A"
+class = "audio"
+connect_on_startup = true
+reconnect_on_disconnect = true
+
+[devices."HLD-PV"]
+mac = "9A:E5:85:51:70:C5"
+class = "input"
+connect_on_startup = true
+reconnect_on_disconnect = true
+
+[devices."AirPodsPro Black"]
+mac = "48:B4:33:F1:49:5A"
+class = "audio"
+connect_on_startup = true
+reconnect_on_disconnect = true

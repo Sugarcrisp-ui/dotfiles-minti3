@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"repositories":
+	[
+		"https://github.com/dcasella/i3wm-syntax"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"i3wm-syntax",
+		"Package Control",
+	],
+}

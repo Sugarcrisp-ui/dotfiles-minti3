@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Google Calendar
+Comment=Site-Specific Browser for Google Calendar
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-calendar_google_com-app --app=https://calendar.google.com
+Icon=~/Pictures/icons/google-calendar-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-calendar_google_com-app

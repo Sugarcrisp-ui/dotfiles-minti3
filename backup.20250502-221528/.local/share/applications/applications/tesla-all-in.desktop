@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Tesla All In
+Comment=Site-Specific Browser for Tesla All In
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-docs_google_com_spreadsheets-app --app=https://docs.google.com/spreadsheets/d/1-xaJi5YRPnNRDQSZfzk0LZCpuSE1SaIAsXRhwAXGOWY/edit?pli=1&gid=1654973658#gid=1654973658
+Icon=~/Pictures/icons/tesla-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-docs_google_com_spreadsheets-app

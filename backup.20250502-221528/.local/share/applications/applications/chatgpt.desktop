@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT
+Comment=Site-Specific Browser for ChatGPT
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-chat_openai_com-app --app=https://chat.openai.com
+Icon=~/Pictures/icons/chatgpt-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-chat_openai_com-app

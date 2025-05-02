@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Gmail
+Comment=Site-Specific Browser for Gmail
+Exec=brave-browser --user-data-dir=/home/brett/.config/brave/ssb-mail_google_com-app --app=https://mail.google.com
+Icon=~/Pictures/icons/gmail-icon.png
+Type=Application
+Categories=Network;WebBrowser;
+Terminal=false
+StartupWMClass=brave-mail_google_com-app

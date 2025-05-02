@@ -1,0 +1,9 @@
+[NotebookList]
+Default=
+1=~/Notebooks/linux-mint
+
+[Notebook 1]
+uri=~/Notebooks/linux-mint
+name=Linux Mint Followup
+interwiki=None
+icon=None
